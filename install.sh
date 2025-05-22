@@ -96,14 +96,14 @@ else
         ;;
     esac
     echo
-    echo "Enter OpenVPN Port (default 1194)"
-    read -p "Port: " -e -i 1150 PORT
+    echo "Enter OpenVPN Port (default 443)"
+    read -p "Port: " -e -i 443 PORT
     echo
     echo "Enter Radius server ip  "
     read -p "Radius IP : " -e -i 192.168.1.1 RADIUSIP
     echo
     echo "Enter Radius server password  "
-    read -p "Radius pass : " -e -i 123456789 RADIUSPASS
+    read -p "Radius pass : " -e -i irsupp321 RADIUSPASS
     echo
     echo "if you want the current server to be setup independently, enter option 1, otherwise enter the name of the server group "
     read -p "Server group or option 1 : " -e -i 1 SETUPTYPE
